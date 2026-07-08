@@ -897,7 +897,12 @@ export default function App() {
         </Card>
 
         <EmailCapture />
-
+<div style={{ marginTop: 30, textAlign: "center", fontSize: 13 }}>
+  <a href="/about.html" style={{ color: C.green, margin: "0 10px", textDecoration: "none" }}>About</a>
+  <a href="/contact.html" style={{ color: C.green, margin: "0 10px", textDecoration: "none" }}>Contact</a>
+  <a href="/privacy.html" style={{ color: C.green, margin: "0 10px", textDecoration: "none" }}>Privacy Policy</a>
+  <a href="/terms.html" style={{ color: C.green, margin: "0 10px", textDecoration: "none" }}>Terms of Use</a>
+</div>
         <div style={{ marginTop: 24, fontSize: 11, color: C.faint, textAlign: "center", lineHeight: 1.7 }}>
           Some links are affiliate links — we may earn a commission at no cost to you. All results are estimates for informational purposes only and do not constitute financial advice. Consult a licensed financial professional for your specific situation.
         </div>
